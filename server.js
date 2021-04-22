@@ -1,9 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const router = require("./routers");
+const router = require("./routes");
 const logger = require("morgan");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
